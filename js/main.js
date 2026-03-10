@@ -556,13 +556,13 @@ function initGui() {
             console.log("family life");
         }
         else {
-            if(value === 1){
+            
             presets.setFamilyGenerations();
             iGenerations.__li.style.display = '';
             params.paintSaturation = 0.3;
             params.paintColorDecay = 0.4;
                 console.log("family generations");
-        }}
+        }
 
         gui.updateDisplays();
         cont.activePreset = 0;
