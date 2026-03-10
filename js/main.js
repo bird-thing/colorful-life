@@ -556,12 +556,11 @@ function initGui() {
             console.log("family life");
         }
         else {
-            
             presets.setFamilyGenerations();
             iGenerations.__li.style.display = '';
             params.paintSaturation = 0.3;
             params.paintColorDecay = 0.4;
-                console.log("family generations");
+            console.log("family generations");
         }
 
         gui.updateDisplays();
